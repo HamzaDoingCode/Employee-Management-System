@@ -86,7 +86,7 @@ int main()
         }
     }
 
-    // Function used to free dynamically allocated memory.
+    // Function used to free memory which is dynamically allocated.
     freespace();
     printf("Exiting from employee record management system\n");
 
@@ -320,4 +320,5 @@ void freespace(void)
         printf("All the nodes memory is freed successfully\n");
     }
 }
+
 
