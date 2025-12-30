@@ -20,7 +20,6 @@ struct nodeType
     char empName[30];
     float empSalary;
     struct nodeType *next; // stores address of next node that will dynamically allocate
-    // use struct also with variable name because compiler undertsands builtin data types like struct, int..
 };
 
 struct nodeType *head = NULL;
@@ -321,3 +320,4 @@ void freespace(void)
         printf("All the nodes memory is freed successfully\n");
     }
 }
+
